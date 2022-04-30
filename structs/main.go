@@ -35,8 +35,11 @@ func main() {
 	}
 
 	// how to use a pointer
-	jimPointer := &jim // &variable - appersand gives the memory address of the value the variable is pointing at
-	jimPointer.updateName("Jimmy")
+	// jimPointer := &jim // &variable - appersand gives the memory address of the value the variable is pointing at
+	// jimPointer.updateName("Jimmy")
+
+	// shortcut pointer - how to write
+	jim.updateName("Jimmy")
 	jim.print()
 }
 
