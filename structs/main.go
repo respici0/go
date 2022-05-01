@@ -7,6 +7,8 @@ type contactInfo struct {
 	zipCode int
 }
 
+// Struct - Data structure - Collection of properties that are related together
+// similar to an object in javascript, but doesn't have to be all the same type
 type person struct {
 	firstName string
 	lastName  string
