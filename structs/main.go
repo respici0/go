@@ -2,6 +2,12 @@ package main
 
 import "fmt"
 
+// type GetGreeting func() string
+
+// type EnglishBot struct {
+// 	greet() string
+// }
+
 type contactInfo struct {
 	email   string
 	zipCode int
@@ -43,6 +49,14 @@ func main() {
 	// shortcut pointer - how to write
 	jim.updateName("Jimmy")
 	jim.print()
+
+	// eb := EnglishBot{
+	// 	greet: func() string {
+	// 		return "Hello!"
+	// 	},
+	// }
+
+	// fmt.Println(eb.greet())
 }
 
 // example of how to use a pointer in a function
